@@ -23,6 +23,7 @@ public class Main {
 
 
     
+    
     Boolean isSameReference(AtomicLong a, AtomicLong b) {
         return a.equals(b); // Noncompliant, because misleading
     }
