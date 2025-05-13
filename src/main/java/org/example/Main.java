@@ -32,6 +32,4 @@ public class Main {
     Boolean isSameReference3(AtomicLong a, AtomicLong b) {
         return a.equals(b); // Noncompliant, because misleading
     }
-
-    
 }
