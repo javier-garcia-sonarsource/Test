@@ -27,4 +27,14 @@ public class Main {
     Boolean isSameReference(AtomicLong a, AtomicLong b) {
         return a.equals(b); // Noncompliant, because misleading
     }
+
+    Boolean isSameReference2(AtomicLong a, AtomicLong b) {
+        return a.equals(b); // Noncompliant, because misleading
+    }
+
+    Boolean isSameReference3(AtomicLong a, AtomicLong b) {
+        return a.equals(b); // Noncompliant, because misleading
+    }
+
+    
 }
