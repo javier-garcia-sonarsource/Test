@@ -21,8 +21,9 @@ public class Main {
         return a.equals(b); // Noncompliant, this is true only if a == b
     }
 
-
-    
+    Boolean isSameNumberValue2(AtomicLong a, AtomicLong b) {
+        return a.equals(b); // Noncompliant, this is true only if a == b
+    }
     
     Boolean isSameReference(AtomicLong a, AtomicLong b) {
         return a.equals(b); // Noncompliant, because misleading
